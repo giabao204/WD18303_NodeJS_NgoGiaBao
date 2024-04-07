@@ -1,158 +1,164 @@
 <%- include('header'); %>
 
-      <div class="banner-single-product d-flex pl-3 pl-lg-5 align-items-center text-center justify-content-center">
+      <div class="banner-product d-flex pl-3 pl-lg-5 align-items-center text-center justify-content-center">
           <div>
             <h1 class="text-slanted text-capitalize display-4 text-yellow">
                 comfy sloth
             </h1>
             <h1 class="text-capitalize display-4 font-weight-bold">
-                single product
+                our products
             </h1>
           </div>
       </div>
     </header>
     <!-- end of header section -->
 
-    <!-- single product -->
-    <section class="single-product py-5">
-      <div class="container">
+    <!-- product section  -->
+    <section id="products" class="products">
+      <div class="container-fluid">
         <div class="row">
-          <div class="col-10 mx-auto col-lg-4 my-5 text-center">
-            <div class="single-product-img-container">
-              <img src="img/img-products/product-1.png" alt="" class="img-fluid">
+          <!-- product info -->
+          <div class="col-10 mx-auto col-md-5 col-lg-3 text-capitalize my-3 px-5">
+            <!-- products categories -->
+            <div class="products-categories-title my-4">
+              <h6 class="text-uppercase">
+                shop by categories
+              </h6>
+              <div class="products-categories-underline"></div>
             </div>
-            <div class="row simgle-product-photos mt-3">
-              <!-- single photo -->
-              <div class="col-2 col-sm-2 p-1 single-product-photo">
-                <img src="img/img-products/product-1.png" alt="" class="img-fluid">
-              </div>
-              <!-- end of single photo -->
-              <!-- single photo -->
-              <div class="col-2 col-sm-2 p-1 single-product-photo">
-                <img src="img/img-products/product-1.png" alt="" class="img-fluid">
-              </div>
-              <!-- end of single photo -->
-              <!-- single photo -->
-              <div class="col-2 col-sm-2 p-1 single-product-photo">
-                <img src="img/img-products/product-1.png" alt="" class="img-fluid">
-              </div>
-              <!-- end of single photo -->
-              <!-- single photo -->
-              <div class="col-2 col-sm-2 p-1 single-product-photo">
-                <img src="img/img-products/product-1.png" alt="" class="img-fluid">
-              </div>
-              <!-- end of single photo -->
-              <!-- single photo -->
-              <div class="col-2 col-sm-2 p-1 single-product-photo">
-                <img src="img/img-products/product-1.png" alt="" class="img-fluid">
-              </div>
-              <!-- end of single photo -->
-              <!-- single photo -->
-              <div class="col-2 col-sm-2 p-1 single-product-photo">
-                <img src="img/img-products/product-1.png" alt="" class="img-fluid">
-              </div>
-              <!-- end of single photo -->
-            </div>
-          </div>
-          <!-- info -->
-          <div class="col-10 col-lg-8 mx-auto px-lg-5 single-product-info my-5">
-            <!-- ratings -->
-            <div class="ratings">
-              <span class="rating-icon">
-                <i class="fas fa-star"></i>
-              </span>
-              <span class="rating-icon">
-                <i class="fas fa-star"></i>
-              </span>
-              <span class="rating-icon">
-                <i class="fas fa-star"></i>
-              </span>
-              <span class="rating-icon">
-                <i class="fas fa-star"></i>
-              </span>
-              <span class="rating-icon">
-                <i class="far fa-star"></i>
-              </span>
-              <span class="text-capitalize">
-                (25 Customer Reviews)
-              </span>
-            </div>
-            <!-- end of ratings -->
-            <h2 class="text-uppercase my-2">
-              PREMIUM OFFICE ARMCHAIR
-            </h2>
-            <h2 class="text-uppercase my-2">
-              $10.00 - $200.00
-            </h2>
-            <p class="lead text-muted">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, quae!
-            </p>
-            <!-- colors -->
-            <h5 class="text-uppercase">
-              colors:
-              <span class="d-inline-block products-color products-color-black mr-2"></span>
-              <span class="d-inline-block products-color products-color-blue mr-2"></span>
-              <span class="d-inline-block products-color products-color-green mr-2"></span>
-            </h5>
-            <!-- end of colors -->
-            <!-- size -->
-            <h5 class="text-uppercase product-size">
-              SIZES : XS S M L XL
-            </h5>
-            <!-- end of size -->
-            <!-- cart buttons -->
-            <div class="d-flex my-2">
-              <span class="btn btn-black mx-1">-</span>
-              <span class="btn btn-black mx-1">4</span>
-              <span class="btn btn-black mx-1">+</span>
-            </div>
-            <button class="btn btn-black my-2 mx-2">
-              Wishlist
-            </button>
-            <button class="btn btn-yellow my-2 mx-2">
-              Add To Cart
-            </button>
-            <!-- end of cart buttons -->
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- end of single product -->
-
-    <!-- single product info -->
-    <section class="single-product-info">
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <div class="jumbotron">
-              <!-- products info link -->
-              <div class="d-flex justify-content-around my-3">
-                <a href="#" class="product-info-link">
-                  <h4 class="text-capitalize">
-                    description
-                  </h4>
-                </a>
-                <a href="#" class="product-info-link">
-                  <h4 class="text-capitalize">
-                    additional information
-                  </h4>
-                </a>
-                <a href="#" class="product-info-link">
-                  <h4 class="text-capitalize">
-                    Reviews (25)
-                  </h4>
-                </a>
-              </div>
-              <!-- end of products info link -->
-              <p class="lead">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae voluptatem aperiam culpa, adipisci aspernatur fugiat, animi odio quos assumenda praesentium, doloremque consequuntur vitae repellat eos sapiente laboriosam iusto. Veritatis, enim dolore. Odit, voluptatum doloremque architecto harum at optio quas minima?
+            <!-- end of title -->
+            <!-- single link -->
+            <a href="#" class="products-category-link d-block">
+              <p class="mb-0">
+                kitchen
               </p>
+            </a>
+            <a href="#" class="products-category-link d-block">
+              <p class="mb-0">
+                bath room
+              </p>
+            </a>
+            <a href="#" class="products-category-link d-block">
+              <p class="mb-0">
+                living room
+              </p>
+            </a>
+            <a href="#" class="products-category-link d-block">
+              <p class="mb-0">
+                patio
+              </p>
+            </a>
+            <a href="#" class="products-category-link d-block">
+              <p class="mb-0">
+                bedroom
+              </p>
+            </a>
+            <!-- end of single link -->
+            <div class="products-categories-title my-4">
+              <h6 class="text-uppercase">
+                shop by price
+              </h6>
+              <div class="products-categories-underline"></div>
+            </div>
+            <!-- end of title -->
+            <form action="">
+              <div class="form-group">
+                <label for="price-range">Range : $0 - $1000</label>
+                <input type="range" class="form-control-range" id="price-range">
+              </div>
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text form-icon">
+                    <i class="fas fa-search"></i>
+                  </span>
+                </div>
+                <input type="text" class="form-control text-capitalize" placeholder="search by name">
+              </div>
+            </form>
+            <div class="products-categories-title my-4">
+              <h6 class="text-uppercase">
+                shop by color
+              </h6>
+              <div class="products-categories-underline"></div>
+            </div>
+            <!-- single color -->
+            <a href="#">
+              <p class="text-capitalize mb-0">
+                <span class="d-inline-block products-color products-color-black mr-2">
+                </span>
+                black (5)
+              </p>
+            </a>
+            <!-- end of single color -->
+            <!-- single color -->
+            <a href="#">
+              <p class="text-capitalize mb-0">
+                <span class="d-inline-block products-color products-color-red mr-2">
+                </span>
+                red (6)
+              </p>
+            </a>
+            <!-- end of single color -->
+            <!-- single color -->
+            <a href="#">
+              <p class="text-capitalize mb-0">
+                <span class="d-inline-block products-color products-color-blue mr-2">
+                </span>
+                blue (10)
+              </p>
+            </a>
+            <!-- end of single color -->
+            <!-- single color -->
+            <a href="#">
+              <p class="text-capitalize mb-0">
+                <span class="d-inline-block products-color products-color-yellow mr-2">
+                </span>
+                yellow (3)
+              </p>
+            </a>
+            <!-- end of single color -->
+            <!-- single color -->
+            <a href="#">
+              <p class="text-capitalize mb-0">
+                <span class="d-inline-block products-color products-color-green mr-2">
+                </span>
+                green (7)
+              </p>
+            </a>
+            <!-- end of single color -->
+            <!-- end of title -->
+            <!-- end of products categories -->
+          </div>
+          <!-- end of product info -->
+          <!-- product img -->
+          <div class="col-10 mx-auto col-md-7 col-lg-9 my-3">
+            <div class="row">
+              <!-- single product -->
+              <% for(let product of data) { %>
+          <div class="col-10 mx-auto col-md-6 col-lg-4">
+            <div class="featured-container p-5">
+              <img href="/single/<%= product.id %>" src="../images/<%= product.images%>" alt="" class="img-fluid">
+              <span class="featured-search-icon" data-toggle="modal" data-target="#productModal">
+                <i class="fas fa-search"></i>
+              </span>
+              <a href="#" class="featured-store-link text-capitalize">add to cart</a>
+            </div>
+            <h6 class="text-capitalize text-center my-2">
+              <a href="/single/<%= product.id %>"> <%= product.name %> </a>
+            </h6>
+            <h6 class="text-center">
+              <span><%= product.price %></span>
+            </h6>
+          </div>
+          <% } %>
+          <!-- end of single product -->
             </div>
           </div>
+          <!-- end of product img -->
         </div>
       </div>
     </section>
-    <!-- end of single product info -->
+    <!-- end of product section  -->
 
     <!-- featured section -->
     <section id="featured" class="featured py-5">
